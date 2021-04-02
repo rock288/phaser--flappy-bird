@@ -8,7 +8,7 @@ class PlayScene extends BaseScene {
     super('PlayScene', config);
     this.bird = null;
     this.pipes = null;
-    this.flapVelocity = 200;
+    this.flapVelocity = 220;
     this.pipeVerticalDistanceRange = [150, 250];
     this.pipeHorizontalDistanceRange = [350, 500];
     this.score = 0;
