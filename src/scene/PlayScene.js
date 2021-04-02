@@ -122,7 +122,7 @@ class PlayScene extends BaseScene {
       .setOrigin(0, 0)
       .setScale(2);
 
-    this.bird.setBodySize(this.bird.width, this.bird.height - 6);
+    this.bird.setBodySize(this.bird.width - 5, this.bird.height - 6);
     this.bird.body.gravity.y = 400;
     this.bird.setCollideWorldBounds(true);
   }
@@ -191,8 +191,8 @@ class PlayScene extends BaseScene {
     const pipeVerticalDistance = Phaser.Math.Between(...difficulty.pipeVerticalDistanceRange);
     const pipeHorizontalDistance = Phaser.Math.Between(...difficulty.pipeHorizontalDistanceRange);
     const pipeVerticalPosition = Phaser.Math.Between(
-      0 + 20,
-      this.config.height - 20 - pipeVerticalDistance
+      0 + 30,
+      this.config.height - 30 - pipeVerticalDistance
     );
 
     uPipe.x = rightMostX + pipeHorizontalDistance;
