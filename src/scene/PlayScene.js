@@ -18,19 +18,19 @@ class PlayScene extends BaseScene {
     this.isPaused = false;
     this.difficulties = {
       easy: {
-        pipeHorizontalDistanceRange: [300, 350],
+        pipeHorizontalDistanceRange: [300, 400],
         pipeVerticalDistanceRange: [150, 200],
       },
       normal: {
-        pipeHorizontalDistanceRange: [280, 330],
+        pipeHorizontalDistanceRange: [280, 370],
         pipeVerticalDistanceRange: [140, 190],
       },
       hard: {
-        pipeHorizontalDistanceRange: [250, 310],
+        pipeHorizontalDistanceRange: [250, 350],
         pipeVerticalDistanceRange: [85, 120],
       },
       titan: {
-        pipeHorizontalDistanceRange: [230, 290],
+        pipeHorizontalDistanceRange: [230, 300],
         pipeVerticalDistanceRange: [50, 100],
       },
     };
