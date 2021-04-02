@@ -22,15 +22,15 @@ class PlayScene extends BaseScene {
         pipeVerticalDistanceRange: [150, 200],
       },
       normal: {
-        pipeHorizontalDistanceRange: [280, 370],
+        pipeHorizontalDistanceRange: [300, 400],
         pipeVerticalDistanceRange: [140, 190],
       },
       hard: {
-        pipeHorizontalDistanceRange: [250, 350],
+        pipeHorizontalDistanceRange: [300, 400],
         pipeVerticalDistanceRange: [85, 120],
       },
       titan: {
-        pipeHorizontalDistanceRange: [230, 300],
+        pipeHorizontalDistanceRange: [300, 400],
         pipeVerticalDistanceRange: [50, 100],
       },
     };
